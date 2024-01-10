@@ -8,8 +8,8 @@
 	<!-- <style>body{opacity: 0;}</style> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500&family=Cormorant+Garamond:wght@500;600;700&family=Cormorant+Infant:wght@500&display=swap&_v=20240109185649" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240109185649">
+	<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500&family=Cormorant+Garamond:wght@500;600;700&family=Cormorant+Infant:wght@500&display=swap&_v=20240110170642" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240110170642">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -283,8 +283,13 @@
 						</div>
 					</div>
 					<div class="about__body">
-						<div class="about__img">
-							<picture><source srcset="img/about-img.webp" type="image/webp"><img src="img/about-img.png" alt="about-img"></picture>
+						<div class="about__images">
+							<div class="about__img">
+								<picture><source srcset="img/about-img.webp" type="image/webp"><img src="img/about-img.png" alt="about-img"></picture>
+							</div>
+							<div data-prlx-mouse data-prlx-cx="100" data-prlx-cy="100" class="about__img-decor">
+								<picture><source srcset="img/about-decor.webp" type="image/webp"><img src="img/about-decor.png" alt="about-decor"></picture>
+							</div>
 						</div>
 						<div class="about__content">
 							<div class="about__text">
@@ -433,6 +438,12 @@
 				</div>
 			</section>
 			<section id="video" class="video">
+				<div data-prlx-mouse data-prlx-cx="100" data-prlx-cy="100" class="video__decor">
+					<picture><source srcset="img/video-decor.webp" type="image/webp"><img src="img/video-decor.png" alt="decor"></picture>
+				</div>
+				<div class="video__decor-2">
+					<picture><source srcset="img/video-decor-2.webp" type="image/webp"><img src="img/video-decor-2.png" alt="decor"></picture>
+				</div>
 				<div class="video__container">
 					<div class="video__head head-section">
 						<h2 class="head-section__title">
@@ -855,6 +866,9 @@
 				</div>
 			</section>
 			<section class="gallery">
+				<div data-prlx-mouse data-prlx-cx="100" data-prlx-cy="100" class="gallery__decor">
+					<picture><source srcset="img/gallery/gallery-decor.webp" type="image/webp"><img src="img/gallery/gallery-decor.png" alt="gallery-decor"></picture>
+				</div>
 				<div class="gallery__container">
 					<div class="gallery__head head-section">
 						<h2 class="head-section__title">
@@ -936,6 +950,9 @@
 				</div>
 			</section>
 			<section class="info">
+				<div data-prlx-mouse data-prlx-cx="100" data-prlx-cy="100" class="info__decor">
+					<picture><source srcset="img/info-decor.webp" type="image/webp"><img src="img/info-decor.png" alt="info-decor"></picture>
+				</div>
 				<div class="info__body">
 					<div class="info__content">
 						<h2 class="info__title">
@@ -1123,24 +1140,29 @@
 							</div>
 						</div>
 						<div class="consultation__content">
-							<form action="#" class="consultation__form form-block">
-								<h3 class="form-block__title">
-									Получить бесплатную консультацию
-								</h3>
-								<input autocomplete="off" type="text" name="name" placeholder="Ваше имя" class="form-block__input">
-								<input autocomplete="off" type="text" name="phone" placeholder="Ваш телефон" class="form-block__input">
-								<input autocomplete="off" type="text" name="email" placeholder="Ваш Email" class="form-block__input">
-								<div class="checkbox">
-									<input id="c_1" class="checkbox__input" type="checkbox" value="1" name="">
-									<label for="c_1" class="checkbox__label"></label>
-									<a href="#" class="checkbox__link">
-										я согласен(на) на обработку персональных данных
-									</a>
-								</div>
-								<button type="submit" class="form-block__button btn">
-									<span>Отправить</span>
-								</button>
-							</form>
+							<div data-prlx-mouse data-prlx-cx="100" data-prlx-cy="100" class="consultation__decor">
+								<picture><source srcset="img/consultation-decor.webp" type="image/webp"><img src="img/consultation-decor.png" alt="consultation-decor"></picture>
+							</div>
+							<div class="consultation__inner">
+								<form action="#" class="consultation__form form-block">
+									<h3 class="form-block__title">
+										Получить бесплатную консультацию
+									</h3>
+									<input autocomplete="off" type="text" name="name" placeholder="Ваше имя" class="form-block__input">
+									<input autocomplete="off" type="text" name="phone" placeholder="Ваш телефон" class="form-block__input">
+									<input autocomplete="off" type="text" name="email" placeholder="Ваш Email" class="form-block__input">
+									<div class="checkbox">
+										<input id="c_1" class="checkbox__input" type="checkbox" value="1" name="">
+										<label for="c_1" class="checkbox__label"></label>
+										<a href="#" class="checkbox__link">
+											я согласен(на) на обработку персональных данных
+										</a>
+									</div>
+									<button type="submit" class="form-block__button btn">
+										<span>Отправить</span>
+									</button>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1253,7 +1275,7 @@
 			</a>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240109185649"></script>
+	<script src="js/app.min.js?_v=20240110170642"></script>
 </body>
 
 </html>
